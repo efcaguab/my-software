@@ -2,6 +2,8 @@ xcode-select --install
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >>~/.profile
+
 brew bundle
 
 # pthon stuff
