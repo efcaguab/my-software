@@ -31,7 +31,8 @@ brew install python
 pip install --upgrade pip
 pip install jupyter
 brew install python3
-pip3 install jupyter
+python3 -m pip install --upgrade pip
+python3 -m pip install jupyter
 
 # install other tools
 brew cask visual-studio-code
