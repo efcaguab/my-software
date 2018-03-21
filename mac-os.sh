@@ -17,7 +17,8 @@ brew cask install java
 brew install openssl libssh2 poppler libsvg curl libxml12 gdal geos boost
 
 # install R
-brew install r --with-java --with-openblas
+brew cask install gfortran
+brew cask install r-app
 brew cask install rstudio
 
 # install latex
