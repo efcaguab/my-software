@@ -68,3 +68,4 @@ cask "vlc"
 cask "visual-studio-code"
 brew "webp"
 brew "zmq"
+brew "matplotlib", args: ["with-cairo", "with-tex"]
