@@ -1,0 +1,11 @@
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+brew "git-lfs"
+brew "pkg-config"
+brew "python"
+brew "gstreamer"
+brew "hugo"
+brew "jpeg"
+brew "mdbtools"
+brew "node", link: false
