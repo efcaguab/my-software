@@ -1,8 +1,6 @@
 tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "homebrew/science"
-tap "homebrew/python"
 brew "mas"
 # basic packages
 brew "git"
