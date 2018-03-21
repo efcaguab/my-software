@@ -17,5 +17,6 @@ pip install nltk
 pip install sympy
 pip install q
 pip install snakeviz
+pip install matplotlib
 pip install iphython[all]
 pip install jupyter
