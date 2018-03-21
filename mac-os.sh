@@ -35,21 +35,21 @@ python3 -m pip install --upgrade pip
 python3 -m pip install jupyter
 
 # install other tools
-brew cask visual-studio-code
-brew cask slack
-brew cask toggl
-brew cask docker
-brew cask mendeley
-brew cask gitkraken
-brew cask xquartz
-brew cask microsoft-office
+brew cask install visual-studio-code
+brew cask install slack
+brew cask install toggl
+brew cask install docker
+brew cask install mendeley
+brew cask install gitkraken
+brew cask install xquartz
+brew cask install microsoft-office
 
 # install non-essential software
-brew cask google-chrome
-brew cask spotify
-brew cask inkscape
-brew cask gimp
-brew cask vlc
-brew cask google-earth-pro
-brew cask calibre
-brew cask skype
+brew cask install google-chrome
+brew cask install spotify
+brew cask install inkscape
+brew cask install gimp
+brew cask install vlc
+brew cask install google-earth-pro
+brew cask install calibre
+brew cask install skype
