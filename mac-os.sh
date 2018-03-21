@@ -10,3 +10,13 @@ pip install jupyter
 brew install python3
 python3 -m pip install --upgrade pip
 python3 -m pip install jupyter
+pip install virtualenv
+pip install nose
+pip install numpy
+pip install scipy
+pip install pandas
+pip install nltk
+pip install sympy
+pip install q
+pip install snakeviz
+pip install iphython[all]
