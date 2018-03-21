@@ -48,9 +48,6 @@ cask "r-app"
 cask "rstudio"
 cask "gfortran"
 brew "python"
-brew "matplotlib", args: ["with-cairo", "with-tex"]
-brew "py2qt5"
-brew "py2cairo"
 # other commonly used software
 cask "slack"
 cask "toggl"
