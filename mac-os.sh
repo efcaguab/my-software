@@ -14,7 +14,9 @@ brew tap caskroom/cask
 # requisites of R and several popular packages
 xcode-select --install
 brew cask install java
-brew install openssl libssh2 poppler libsvg curl libxml12 gdal geos boost
+brew install openssl libssh2 poppler libsvg curl libxml2 gdal geos boost gmp netcdf libtiff libsndfile tcl-tk
+brew install unixodbc psqlodbc mysql sqliteodbc
+brew install freetds --with-unixodbc
 
 # install R
 brew cask install gfortran
@@ -28,6 +30,8 @@ brew cask install mactex
 brew install python
 pip install --upgrade pip
 pip install jupyter
+brew install python3
+pip3 install jupyter
 
 # install other tools
 brew cask visual-studio-code
