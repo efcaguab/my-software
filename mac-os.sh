@@ -6,10 +6,6 @@ brew bundle
 
 # pthon stuff
 pip install --upgrade pip
-pip install jupyter
-brew install python3
-python3 -m pip install --upgrade pip
-python3 -m pip install jupyter
 pip install virtualenv
 pip install nose
 pip install numpy
@@ -20,3 +16,4 @@ pip install sympy
 pip install q
 pip install snakeviz
 pip install iphython[all]
+pip install jupyter
