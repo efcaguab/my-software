@@ -32,3 +32,18 @@ pip install jupyter
 brew cask visual-studio-code
 brew cask slack
 brew cask toggl
+brew cask docker
+brew cask mendeley
+brew cask gitkraken
+brew cask xquartz
+brew cask microsoft-office
+
+# install non-essential software
+brew cask google-chrome
+brew cask spotify
+brew cask inkscape
+brew cask gimp
+brew cask vlc
+brew cask google-earth-pro
+brew cask calibre
+brew cask skype
