@@ -10,17 +10,7 @@ source ~/.profile
 
 brew bundle
 
-# pthon stuff
-pip install --upgrade pip
-pip install virtualenv
-pip install nose
-pip install numpy
-pip install scipy
-pip install pandas
-pip install nltk
-pip install sympy
-pip install q
-pip install snakeviz
-pip install matplotlib
-pip install iphython[all]
-pip install jupyter
+# python stuff
+pip3 install --upgrade pip
+pip3 -install -user pipenv
+echo "export PATH=$PATH:$(echo -n $(python3 -m site --user-base) ; echo /bin)" >> ~/.profile
