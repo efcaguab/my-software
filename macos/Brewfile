@@ -68,7 +68,9 @@ cask "visual-studio-code"
 cask "gitkraken"
 brew 'zstd'
 brew 'unrar'
-cask 'pandoc'
+brew 'pandoc' 
+brew 'pandoc-citeproc'
+brew 'pandoc-crossref'
 brew 'node'
 # A million fonts
 cask 'caskroom/fonts/font-3270'
