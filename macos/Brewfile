@@ -1,6 +1,7 @@
 tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
+tap "caskroom/fonts"
 brew "mas"
 # basic packages
 brew "git"
@@ -74,5 +75,5 @@ brew 'pandoc-crossref'
 brew 'node'
 cask 'docker-toolbox'
 cask 'bitwarden'
-cask 'r-app'
-cask 'rstudio'
+# fonts
+cask 'font-open-sans'
