@@ -77,3 +77,4 @@ cask 'docker-toolbox'
 cask 'bitwarden'
 # fonts
 cask 'font-open-sans'
+cask 'font-space-mono'
